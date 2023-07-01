@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container my-5">
+      <h1 class="title">Weather App</h1>
+      <form id="weather-form">
+        <label for="city-select">Select a city:</label>
+        <select id="city-select"></select>
+        <button id="submit-btn" type="submit">Get Weather</button>
+      </form>
+      <div id="weather-info" class="hidden">
+        <div id="weather-icon"></div>
+        <div id="weather-description"></div>
+        <div id="weather-temperature"></div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+[
+    {
+      "name": "New York",
+      "weather": [
+        {
+          "description": "clear sky",
+          "icon": "sun"
+        }
+      ],
+      "main": {
+        "temp": 15
+      }
+    },
+    {
+      "name": "Los Angeles",
+      "weather": [
+        {
+          "description": "scattered clouds",
+          "icon": "cloud-sun"
+        }
+      ],
+      "main": {
+        "temp": 20
+      }
+    },
+    {
+      "name": "Chicago",
+      "weather": [
+        {
+          "description": "overcast clouds",
+          "icon": "cloud"
+        }
+      ],
+      "main": {
+        "temp": 10
+      }
+    },
+    {
+      "name": "Houston",
+      "weather": [
+        {
+          "description": "light rain",
+          "icon": "cloud-rain"
+        }
+      ],
+      "main": {
+        "temp": 25
+      }
+    },
+    {
+      "name": "Phoenix",
+      "weather": [
+        {
+          "description": "few clouds",
+          "icon": "cloud-sun"
+        }
+      ],
+      "main": {
+        "temp": 30
+      }
+    },
+    {
+      "name": "Philadelphia",
+      "weather": [
+        {
+          "description": "broken clouds",
+          "icon": "cloud"
+        }
+      ],
+      "main": {
+        "temp": 12
+      }
+    },
+    {
+      "name": "San Antonio",
+      "weather": [
+        {
+          "description": "clear sky",
+          "icon": "sun"
+        }
+      ],
+      "main": {
+        "temp": 22
+      }
+    },
+    {
+      "name": "San Diego",
+      "weather": [
+        {
+          "description": "scattered clouds",
+          "icon": "cloud-sun"
+        }
+      ],
+      "main": {
+        "temp": 18
+      }
+    },
+    {
+      "name": "Dallas",
+      "weather": [
+        {
+          "description": "overcast clouds",
+          "icon": "cloud"
+        }
+      ],
+      "main": {
+        "temp": 20
+      }
+    },
+    {
+      "name": "San Jose",
+      "weather": [
+        {
+          "description": "few clouds",
+          "icon": "cloud-sun"
+        }
+      ],
+      "main": {
+        "temp": 23
+      }
+    }
+  ]
+  
