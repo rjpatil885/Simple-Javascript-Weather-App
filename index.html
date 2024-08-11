@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container my-5">
+      <h1 class="title">Weather App</h1>
+      <form id="weather-form">
+        <label for="city-select">Select a city:</label>
+        <select id="city-select"></select>
+        <button id="submit-btn" type="submit">Get Weather</button>
+        <button type="button" id="add-favorite">Add to Favorites</button>
+        <button type="button" id="temp-toggle">Toggle °C/°F</button>
+      </form>
+      <div id="weather-info" class="hidden">
+        <div id="weather-icon"></div>
+        <div id="weather-description"></div>
+        <div id="weather-temperature"></div>
+        <div id="weather-humidity"></div>
+        <div id="weather-pressure"></div>
+      </div>
+      <h2>Favorites</h2>
+      <ul id="favorites-list"></ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
